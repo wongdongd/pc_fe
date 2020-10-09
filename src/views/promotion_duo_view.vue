@@ -35,7 +35,7 @@ export default {
       this.$http({
         method: "get",
         url:
-          "/promotion/get?pageNum=" +
+          "/promotion/getAll?pageNum=" +
           current_page +
           "&pageSize=" +
           current_page_size,
